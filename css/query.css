@@ -1,0 +1,277 @@
+/********************/
+/*   1314px   */
+/********************/
+@media (max-width: 82.125em) {
+  .prototypes {
+    grid-template-columns: 1fr;
+    text-align: center;
+    max-width: 120rem;
+    gap: 6rem;
+  }
+  .square-video {
+    width: 60%;
+  }
+  .p--3 {
+    grid-row: 3/4;
+  }
+}
+
+/********************/
+/*   1175px   */
+/********************/
+@media (max-width: 73.43em) {
+  html {
+    font-size: 56.25%;
+  }
+  .features {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 4.2rem;
+  }
+  .gs-sections {
+    grid-template-columns: repeat(5, 1fr);
+    padding: 0 5rem;
+  }
+  .gs--1 {
+    grid-row: 2/3;
+    grid-column: 1/2;
+  }
+  .gs--2 {
+    grid-column: 1/-1;
+  }
+  .gs--3 {
+    grid-column: 5/6;
+  }
+  .gs--img3 {
+    grid-row: 1/2;
+    transform: rotate(90deg);
+    justify-self: center;
+  }
+  .right-arrow {
+    transform: rotate(90deg);
+  }
+  .gs--4 {
+    grid-row: 2/3;
+    grid-column: 3/4;
+  }
+  .heading-secondary {
+    font-size: 6rem;
+  }
+  .features {
+    gap: 0;
+  }
+  .section-features {
+    margin-bottom: 6.6rem;
+  }
+  .for-lists {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6rem;
+    margin: 0 0rem;
+    padding: 0 12rem;
+  }
+  .p2 {
+    margin: 0;
+  }
+}
+/********************/
+/*   1000px   */
+/********************/
+@media (max-width: 62.5em) {
+  /* html {
+    font-size: 50%;
+  } */
+  .about {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 4.8rem;
+  }
+  .footer-text-box {
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+  }
+  .ft--1 {
+    grid-row: 2/3;
+    grid-column: 1/-1;
+    text-align: center;
+  }
+  .copyright {
+    text-align: center;
+    padding-top: 0;
+  }
+  .for-lists {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+    padding: 0 4rem;
+  }
+  .section-testimonial {
+  }
+  .section-prototype {
+    padding: 0 4rem;
+  }
+  .section-purchase {
+    padding: 6rem 4rem;
+  }
+  .gs-text {
+    padding: 0;
+    margin: 0;
+  }
+  .version,
+  .component {
+    display: none;
+  }
+}
+
+/********************/
+/*   700px   */
+/********************/
+
+@media (max-width: 43.7em) {
+  html {
+    font-size: 54%;
+  }
+  .for-lists {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 6rem;
+  }
+  .col3 {
+    row-gap: 6rem;
+  }
+  .section-get-started {
+    margin-bottom: 10rem;
+  }
+  .gs-section,
+  .gs-arrow-up {
+    padding: 1.2rem 0;
+  }
+  .gs--1 {
+    grid-row: 2/3;
+    grid-column: 1/-1;
+  }
+  .gs--3 {
+    grid-row: 3/4;
+    grid-column: 1/-1;
+  }
+  .gs--4 {
+    grid-row: 4/5;
+    grid-column: 1/-1;
+  }
+  .gs-section img,
+  .gs-arrow-up img {
+    display: none;
+  }
+  .footer-text-box {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .ft--1 {
+    grid-row: 2/3;
+    grid-column: 1/4;
+    text-align: center;
+  }
+  .ft--2 {
+    grid-row: 1/2;
+    grid-column: span 2;
+    text-align: center;
+  }
+  .ft--3 {
+    grid-row: 1/2;
+    grid-column: span 2;
+    text-align: center;
+  }
+  .ft--4 {
+    grid-row: 1/2;
+    grid-column: span 2;
+    text-align: center;
+  }
+  .ft--5 {
+    grid-row: 2/3;
+    grid-column: 4/6;
+    text-align: center;
+  }
+  .nav-btn {
+    display: block;
+  }
+  .nav-lists {
+    display: none;
+  }
+  .testimonial-box {
+    justify-content: center;
+    margin: 4rem 4rem;
+  }
+  .purchase-box {
+    grid-template-columns: 1fr;
+    text-align: center;
+    max-width: 35rem;
+    gap: 2rem;
+  }
+  .purchase-box-footer {
+    padding: 2rem 0;
+  }
+  .purchase-details {
+    padding-left: 0;
+  }
+  .heading-secondary {
+    font-size: 5rem;
+  }
+  .descrption2 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 32.68em) {
+  .for-lists {
+    grid-template-columns: 1fr;
+    padding: 0 10rem;
+  }
+  .safety-text {
+    font-size: 1rem;
+    color: var(--light-gray2);
+    text-align: left;
+    max-width: 14rem;
+    margin-left: 1rem;
+  }
+  .perchase-logo {
+    width: 1rem;
+    height: 1rem;
+  }
+  .section-testimonial {
+    padding: 8rem 2rem;
+  }
+  .section-faq {
+    padding: 0 4rem;
+  }
+  .grid--3col {
+    grid-template-columns: 1fr;
+  }
+  .section-features {
+    margin: 0 10rem;
+  }
+  .list-email {
+    font-size: 1.6rem;
+  }
+  .email {
+    font-size: 1.2rem;
+    padding: 2rem 1.9rem;
+
+    margin-right: 1rem;
+  }
+  .join-btn {
+    font-size: 1.2rem;
+    padding: 1rem 1.9rem;
+  }
+  .mail-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+  .faq-btn a {
+    font-size: 1.2rem;
+  }
+  .faq-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    padding: 1rem 1.2rem;
+  }
+}
